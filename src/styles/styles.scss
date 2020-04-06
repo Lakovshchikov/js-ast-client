@@ -1,0 +1,25 @@
+@import "variables";
+
+html, body{
+  height: 100%;
+}
+
+body{
+  overflow: hidden;
+
+  .header_wrapper{
+    background-color: $dark_primary;
+    color: $primary_text
+  }
+}
+
+.app_workspace{
+  max-height: 600px;
+  min-height: 600px;
+
+  .workspace_ast-wrapper,
+  .workspace_lexem-wrapper{
+    overflow: auto;
+    max-height: 600px;
+  }
+}
